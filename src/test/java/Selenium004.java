@@ -21,7 +21,7 @@ public void login_VWO_test(){
     Assert.assertEquals(driver.getTitle(),"Login - VWO");
     WebElement email= driver.findElement(By.id("login-username"));
     email.sendKeys("psagra13@gmail.com");
-    driver.findElement(By.name("password")).sendKeys("Praveen@1991");
+    driver.findElement(By.name("password")).sendKeys("Praveen@1990");
     driver.findElement(By.id("js-login-btn")).click();
     try{
         Thread.sleep(5000);
